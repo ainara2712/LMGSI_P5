@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <nav>
-            <a href="Inicio.html">Inicio</a>
-            <a href="Contacto.html">Contacto</a>
-            <a href="Historia de Taylor Swift.html">Historia de Taylor Swift</a>
-            <a href="Conciertos.html">Conciertos</a>
-            <a href="Discografia.html">Discografía</a>
-            <a href="Galeria de fotos.html">Galería de Fotos</a>
-            <a href="Quienes somos.html">Quienes somos</a>
-        
-        </nav>
-        <title>Formulario </title>
+        <title>Pàgina de fans de Taylor Swift</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style-conciertos.css">
     </head>
-    <header>
-        <h2>Contacto</h2>
-    </header>
     <body>
+        <header>
+            <div class="logo">
+                <img src="images/Logo.png" alt="Logo principal Taylor Swift" title="Logo principal Taylor Swift">
+            </div>
+            <div class="buscador">
+                <form action="/search" method="GET">
+                    <input type="text" name="q" placeholder="Buscar...">
+                    <button type="submit">Buscar</button>
+                </form>
+            </div>
+            <div class="login">
+                <a href=""><img src="images/login-icono.png" alt="Logo de inicio de sesion" title="Logo de inicio de sesion"></a>
+            </div>
+        </header>
+        <nav class="menu_navegacion">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="Historia-de-Taylor-Swift.html">Historia de Taylor Swift</a></li>
+                <li><a href="Conciertos.html">Conciertos</a></li>
+                <li><a href="Discografia.html">Discografía</a></li>
+                <li><a href="Galeria-de-Fotos.html">Galería de Fotos</a></li>
+                <li><a href="Quienes-somos.html">Quienes somos</a></li>
+            </ul>
+        </nav>
         <h2>Formulario de Contacto</h2>
         <form action="#" method="post">
             <label for="nombre">Nombre:</label><br>

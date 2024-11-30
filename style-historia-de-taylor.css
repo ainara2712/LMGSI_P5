@@ -1,0 +1,301 @@
+/* Reset global de márgenes y padding Taylor Swift */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales del body Taylor Swift*/
+
+body {
+    background-color: #EDECE8;
+    color: #000000;
+    height: 100vh;
+    margin: 0;
+    padding-top: 120px; 
+}
+
+/* Estilos del encabezado Taylor Swift */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 120px;
+    background-color: #ddd6ce;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10; /* Asegura que el encabezado se quede encima */
+}
+
+/* Estilos de la logo Taylor Swift*/
+
+.logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 260px;
+    height: auto;
+}
+
+/* Estilos del buscador Taylor Swift*/
+
+.buscador {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 380px;
+}
+
+.buscador input {
+    padding: 7px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    width: 280px;
+}
+
+.buscador button {
+    padding: 5px 8px;
+    background-color: #75695E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.buscador button:hover {
+    background-color: #5E5046;
+}
+
+/* Estilos de la sección de login Taylor Swift*/
+
+.login {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 120px;
+}
+
+.login img {
+    max-width: 120px;
+}
+
+/* Menu de navegación Taylor Swift */
+
+.menu_navegacion {
+    background-color: #ada49c31;
+    color: white;
+    padding: 25px;
+    position: relative;
+    z-index: 5; /* Asegura que se quede debajo del header */
+}
+
+.menu_navegacion ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu_navegacion li {
+    margin: 0 50px;
+}
+
+.menu_navegacion a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu_navegacion a:hover {
+    color: #796455; 
+}
+
+/* Estilos del texto con imagen */
+
+.contenedor_historia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.historia_texto{
+   margin-right: 25px;
+}
+
+.historia_texto h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.historia_texto p{
+    text-align: left;
+    width: 648px;
+    line-height: 1.5;
+}
+
+.historia_imagenes img{
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+/* Segundo contenedor */
+.contenedor_historia2{
+    display: flex;
+    align-items: center; /* Alinea los elementos al principio */
+    justify-content: center; /* Distribuye el texto a la izquierda y la imagen a la derecha */
+}
+
+.historia_texto2{
+    margin-right: 25px;
+    width: 648px; /* Asegura que el texto tenga un ancho fijo */
+}
+
+.historia_texto2 h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.historia_texto2 p{
+    text-align: left;
+    line-height: 1.5;
+}
+
+.historia_imagenes2 img{
+    max-width: 100%; /* Asegura que la imagen no se desborde */
+    height: auto; /* Mantiene la proporción */
+}
+
+
+/*tercero*/
+.contenedor_historia3{
+    display: flex;
+    align-items: center; /* Alinea los elementos al principio */
+    justify-content: center; /* Distribuye el texto a la izquierda y la imagen a la derecha */
+}
+
+.historia_texto3{
+    width: 608px; /* Asegura que el texto tenga un ancho fijo */
+}
+
+.historia_texto3 h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.historia_texto3 p{
+    text-align: left;
+    line-height: 1.5;
+}
+
+.historia_imagenes3 img{
+    max-width: 100%; /* Asegura que la imagen no se desborde */
+    height: auto; /* Mantiene la proporción */
+    margin-left: 25px;
+}
+
+
+/*cuarto*/
+.contenedor_historia4{
+    display: flex;
+    align-items: center; /* Alinea los elementos al principio */
+    justify-content: center; /* Distribuye el texto a la izquierda y la imagen a la derecha */
+}
+
+.historia_texto4{
+    width: 912px; /* Asegura que el texto tenga un ancho fijo */
+}
+
+.historia_texto4 h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.historia_texto4 p{
+    text-align: left;
+    line-height: 1.5;
+}
+
+/*quinta*/
+.contenedor_historia5{
+    display: flex;
+    align-items: center; /* Alinea los elementos al principio */
+    justify-content: center; /* Distribuye el texto a la izquierda y la imagen a la derecha */
+}
+
+.historia_texto5{
+    width: 608px; /* Asegura que el texto tenga un ancho fijo */
+}
+
+.historia_texto5 h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.historia_texto5 p{
+    text-align: left;
+    line-height: 1.5;
+
+}
+
+.historia_imagenes5 img{
+    max-width: 100%; /* Asegura que la imagen no se desborde */
+    height: auto; /* Mantiene la proporción */
+    margin-left: 25px;
+}
+
+
+/*sexto*/
+.contenedor_historia6{
+    display: flex;
+    align-items: center; /* Alinea los elementos al principio */
+    justify-content: center; /* Distribuye el texto a la izquierda y la imagen a la derecha */
+}
+
+.historia_texto6{
+    width: 608px; /* Asegura que el texto tenga un ancho fijo */
+}
+
+.historia_texto6 h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.historia_texto6 p{
+    text-align: left;
+    line-height: 1.5;
+}
+
+.historia_imagenes6 img{
+    max-width: 100%; /* Asegura que la imagen no se desborde */
+    height: auto; /* Mantiene la proporción */
+    margin-left: 25px;
+}
+
+
+/*pie de pagina*/
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ddd6ce63;
+    width: 100%;
+    background-color: #ddd6ce63;
+    
+}
+
+
+footer h6 {
+    color: #75695E;
+}
+
