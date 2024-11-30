@@ -23,7 +23,7 @@ header {
     justify-content: space-between;
     padding: 0 20px;
     height: 120px;
-    background-color: #ddd6ce63;
+    background-color: #ddd6ce;
     position: fixed;
     width: 100%;
     top: 0;
@@ -121,15 +121,49 @@ header {
     color: #796455; 
 }
 
+/* Página Discografia */
+
+.contenedor_discografia_texto h1{
+    color: black;
+    text-align: center;
+    padding: 40px;
+}
+
+.discografia {
+    display: flex;
+    flex-wrap: wrap; /* Para que las tarjetas se acomoden en varias filas si hay más discos */
+    gap: 20px; /* Espacio entre los discos */
+    justify-content: center;
+    padding: 20px;
+}
+
+.disco{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.disco h2{
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.disco h3{
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 /* Footer  Taylor Swift*/
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #ddd6ce63;
-    position: absolute;
+    background-color: #ddd6ce;
     bottom: 0;
     width: 100%;
+    left: 0;
 }
 
 footer h6 {

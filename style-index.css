@@ -23,7 +23,7 @@ header {
     justify-content: space-between;
     padding: 0 20px;
     height: 120px;
-    background-color: #ddd6ce63;
+    background-color: #ddd6ce;
     position: fixed;
     width: 100%;
     top: 0;
@@ -126,7 +126,7 @@ header {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #ddd6ce63;
+    background-color: #ddd6ce;
     position: absolute;
     bottom: 0;
     width: 100%;

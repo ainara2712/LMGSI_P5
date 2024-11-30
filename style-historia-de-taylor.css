@@ -121,6 +121,13 @@ header {
     color: #796455; 
 }
 
+
+/* Main */
+
+main {
+    flex: 1;
+}
+
 /* Estilos del texto con imagen */
 
 .contenedor_historia{
@@ -141,7 +148,7 @@ header {
 
 .historia_texto p{
     text-align: left;
-    width: 648px;
+    width: 638px;
     line-height: 1.5;
 }
 
@@ -159,7 +166,7 @@ header {
 
 .historia_texto2{
     margin-right: 25px;
-    width: 648px; /* Asegura que el texto tenga un ancho fijo */
+    width: 658px; /* Asegura que el texto tenga un ancho fijo */
 }
 
 .historia_texto2 h3{
@@ -214,7 +221,7 @@ header {
 }
 
 .historia_texto4{
-    width: 912px; /* Asegura que el texto tenga un ancho fijo */
+    width: 936px; /* Asegura que el texto tenga un ancho fijo */
 }
 
 .historia_texto4 h3{
@@ -227,29 +234,28 @@ header {
     line-height: 1.5;
 }
 
-/*quinta*/
-.contenedor_historia5{
+/*quinto*/
+.contenedor_historia5 {
     display: flex;
     align-items: center; /* Alinea los elementos al principio */
     justify-content: center; /* Distribuye el texto a la izquierda y la imagen a la derecha */
 }
 
-.historia_texto5{
+.historia_texto5 {
     width: 608px; /* Asegura que el texto tenga un ancho fijo */
 }
 
-.historia_texto5 h3{
+.historia_texto5 h3 {
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
-.historia_texto5 p{
+.historia_texto5 p {
     text-align: left;
     line-height: 1.5;
-
 }
 
-.historia_imagenes5 img{
+.historia_imagenes5 img {
     max-width: 100%; /* Asegura que la imagen no se desborde */
     height: auto; /* Mantiene la proporción */
     margin-left: 25px;
@@ -257,27 +263,27 @@ header {
 
 
 /*sexto*/
-.contenedor_historia6{
+.contenedor_historia6 {
     display: flex;
     align-items: center; /* Alinea los elementos al principio */
     justify-content: center; /* Distribuye el texto a la izquierda y la imagen a la derecha */
 }
 
-.historia_texto6{
-    width: 608px; /* Asegura que el texto tenga un ancho fijo */
+.historia_texto6 {
+    width: 624px; /* Asegura que el texto tenga un ancho fijo */
 }
 
-.historia_texto6 h3{
+.historia_texto6 h3 {
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
-.historia_texto6 p{
+.historia_texto6 p {
     text-align: left;
     line-height: 1.5;
 }
 
-.historia_imagenes6 img{
+.historia_imagenes6 img {
     max-width: 100%; /* Asegura que la imagen no se desborde */
     height: auto; /* Mantiene la proporción */
     margin-left: 25px;
@@ -288,12 +294,10 @@ header {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #ddd6ce63;
+    background-color: #ddd6ce;
     width: 100%;
-    background-color: #ddd6ce63;
-    
+    margin-top: 30px;
 }
-
 
 footer h6 {
     color: #75695E;
