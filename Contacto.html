@@ -3,7 +3,8 @@
     <head>
         <title>Pàgina de fans de Taylor Swift</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="style-conciertos.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style-contacto.css">
     </head>
     <body>
         <header>
@@ -31,22 +32,80 @@
                 <li><a href="Quienes-somos.html">Quienes somos</a></li>
             </ul>
         </nav>
-        <h2>Formulario de Contacto</h2>
-        <form action="resposta.html" method="post">
-            <label for="nombre">Nombre:</label><br>
-            <input type="text" id="nombre" name="nombre" required><br><br>
+        <main>
+        <div class="formulario">
+            <div class="texto-formulario">
+                <h2>¡Queremos saber tu opinión sobre Taylor Swift!</h2>
+            </div>
+            <form action="resposta.html" method="POST">
+                <label for="nombre">Nombre:</label>
+                <br>
+                <input type="text" id="nombre" name="nombre" required>
+                <br><br>
 
-            <label for="email">Correo Electrónico:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
+                <label for="email">Correo Electrónico:</label>
+                <br>
+                <input type="email" id="email" name="email" required>
+                <br><br>
 
-            <label for="edad">Edad:</label><br>
-            <input type="number" id="edad" name="edad" required>
+                <label for="edad">Edad:</label>
+                <br>
+                <input type="number" id="edad" name="edad" required>
+                <br><br>
 
-            <label for="mensaje">Mensaje:</label><br>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                <!-- Desplegable -->
+                <label for="opcions">Cuál es tu álbum favorito de Taylor Swift?</label>
+                <br>
+                <select id="opcions" name="opcions" required>
+                    <option value="Taylor Swift">Taylor Swift</option>
+                    <option value="Fearless">Fearless</option>
+                    <option value="Speak Now">Speak Now</option>
+                    <option value="Red">Red</option>
+                    <option value="Reputation">Reputation</option>
+                    <option value="1989">1989</option>
+                    <option value="Lover">Lover</option>
+                    <option value="Evermore">Evermore</option>
+                    <option value="Folklore">Folklore</option>
+                    <option value="Midnights">Midnights</option>
+                    <option value="The Tortured Poets Departament">The Tortured Poets Departament</option>
+                </select>
+                <br><br>
 
-            <input type="submit" value="Enviar">
-        </form>	
+                <!-- Llista de checkboxs -->
+                <label for="canciones">¿Cuáles son tus canciones favoritas de Taylor Swift? (obligatorio):</label>
+                <br>
+                <input type="checkbox" id="cancion1" name="canciones" value="Love Story" checked>
+                <label for="cancion1">Love Story</label><br>
+                <input type="checkbox" id="cancion2" name="canciones" value="Shake It Off">
+                <label for="cancion2">Shake It Off</label><br>
+                <input type="checkbox" id="cancion3" name="canciones" value="All Too Well">
+                <label for="cancion3">All Too Well</label>
+                <br><br>
+
+
+                <!-- Llista de radiobuttons -->
+                <label for="estilo">¿Cuál crees que es el mejor estilo musical de Taylor Swift? (obligatorio):</label>
+                <br>
+                <input type="radio" id="pop" name="estilo" value="Pop" checked>
+                <label for="pop">Pop</label><br>
+                <input type="radio" id="country" name="estilo" value="Country">
+                <label for="country">Country</label><br>
+                <input type="radio" id="indie" name="estilo" value="Indie">
+                <label for="indie">Indie</label>
+                <br><br> 
+
+                <!-- Mensaje -->
+                <label for="mensaje">Qué piensas de Taylor Swift y su música?</label>
+                <br>
+                <textarea id="mensaje" name="mensaje" placeholder="Escriu els teus comentaris aquí..." rows="7" cols="80"></textarea><br><br>
+                <br>
+
+                <!-- boton -->
+                <button type="submit">Enviar</button>
+
+            </form>	
+        </div>
+        </main>
     </body>
     <footer>
         <h6>CopyRight 2024 Ainara Juarez Moreno y Ikram Senoussi DAW 1A</h6>

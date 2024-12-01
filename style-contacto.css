@@ -9,10 +9,12 @@
 
 body {
     background-color: #EDECE8;
-    color: #ffffff;
+    color: #000000;
     height: 100vh;
     margin: 0;
-    padding-top: 120px; 
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Estilos del encabezado Taylor Swift */
@@ -70,6 +72,7 @@ header {
     border-radius: 5px;
     margin-left: 7px;
     cursor: pointer;
+    width: 60px;
 }
 
 .buscador button:hover {
@@ -121,15 +124,48 @@ header {
     color: #796455; 
 }
 
+.texto-formulario h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px; /* Ancho del formulario */
+    display: flex;
+    flex-direction: column; /* Para apilar los elementos dentro del formulario */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba (0, 0, 0, 0.1);
+}
+
+/* Estilos para los inputs, botones, etc. */
+input, select, textarea, button {
+    width: 100%; /* Asegura que todos los campos ocupen el ancho completo */
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
 /* Footer  Taylor Swift*/
 
 footer {
     text-align: center;
     padding: 20px;
     background-color: #ddd6ce;
-    position: absolute;
     bottom: 0;
     width: 100%;
+    left: 0;
 }
 
 footer h6 {
