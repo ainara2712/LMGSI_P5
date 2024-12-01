@@ -130,431 +130,443 @@ header {
 /*concierto1*/
 .contenedor_concierto1{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    padding: 10px 0;
 }
 
 .historia_concierto1{
-   margin-right: 25px;
+    text-align: center;
+    width: 80%; 
 }
 
 .historia_texto h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .historia_texto p{
     text-align: left;
-    width: 638px;
-    line-height: 1.5;
+    margin: 0 10px;
 }
 
 /*concierto2*/
 .contenedor_concierto2{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    padding: 10px 0;
 }
 
 .historia_concierto2{
-   margin-right: 25px;
+    text-align: center;
+    width: 80%; 
 }
 
 .historia_texto h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .historia_texto p{
     text-align: left;
-    width: 638px;
-    line-height: 1.5;
+    margin: 0 10px;
 }
-
 /*concierto3*/
-.contenedor_concierto1{
+.contenedor_concierto3{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    padding: 10px 0;
 }
 
-.historia_concierto1{
-   margin-right: 25px;
+.historia_concierto3{
+    text-align: center;
+    width: 80%; 
 }
 
 .historia_texto h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .historia_texto p{
     text-align: left;
-    width: 638px;
-    line-height: 1.5;
+    margin: 0 10px;
 }
-
 
 /*concierto4*/
 .contenedor_concierto4{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    padding: 10px 0;
 }
 
 .historia_concierto4{
-   margin-right: 25px;
+    text-align: center;
+    width: 80%; 
 }
 
 .historia_texto h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .historia_texto p{
     text-align: left;
-    width: 638px;
-    line-height: 1.5;
+    margin: 0 10px;
 }
-
 
 /*concierto5*/
 .contenedor_concierto5{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    padding: 10px 0;
 }
 
 .historia_concierto5{
-   margin-right: 25px;
+    text-align: center;
+    width: 80%; 
 }
 
 .historia_texto h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .historia_texto p{
     text-align: left;
-    width: 638px;
-    line-height: 1.5;
+    margin: 0 10px;
 }
-
 
 /*concierto6*/
 .contenedor_concierto6{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    padding: 10px 0;
 }
 
 .historia_concierto6{
-   margin-right: 25px;
+    text-align: center;
+    width: 80%; 
 }
 
 .historia_texto h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .historia_texto p{
     text-align: left;
-    width: 638px;
-    line-height: 1.5;
+    margin: 0 10px;
 }
 
 
 /*concierto7*/
 .contenedor_concierto7{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    padding: 10px 0;
 }
 
 .historia_concierto7{
-   margin-right: 25px;
+    text-align: center;
+    width: 80%; 
 }
 
 .historia_texto h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .historia_texto p{
     text-align: left;
-    width: 638px;
-    line-height: 1.5;
+    margin: 0 10px;
 }
-
 
 /*concierto8*/
 .contenedor_concierto8{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    padding: 10px 0;
 }
 
 .historia_concierto8{
-   margin-right: 25px;
+    text-align: center;
+    width: 80%; 
 }
 
 .historia_texto h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .historia_texto p{
     text-align: left;
-    width: 638px;
-    line-height: 1.5;
+    margin: 0 10px;
 }
-
 
 /*concierto9*/
 .contenedor_concierto9{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    padding: 10px 0;
 }
 
 .historia_concierto9{
-   margin-right: 25px;
+    text-align: center;
+    width: 80%; 
 }
 
 .historia_texto h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .historia_texto p{
     text-align: left;
-    width: 638px;
-    line-height: 1.5;
+    margin: 0 10px;
 }
 
 
 /*concierto10*/
 .contenedor_concierto10{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    padding: 10px 0;
 }
 
 .historia_concierto10{
-   margin-right: 25px;
+    text-align: center;
+    width: 80%; 
 }
 
 .historia_texto h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .historia_texto p{
     text-align: left;
-    width: 638px;
-    line-height: 1.5;
+    margin: 0 10px;
 }
 
 
 /*concierto11*/
 .contenedor_concierto11{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    padding: 10px 0;
 }
 
 .historia_concierto11{
-   margin-right: 25px;
+    text-align: center;
+    width: 80%; 
 }
 
 .historia_texto h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .historia_texto p{
     text-align: left;
-    width: 638px;
-    line-height: 1.5;
+    margin: 0 10px;
 }
-
 
 /*concierto12*/
 .contenedor_concierto12{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    padding: 10px 0;
 }
 
 .historia_concierto12{
-   margin-right: 25px;
+    text-align: center;
+    width: 80%; 
 }
 
 .historia_texto h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .historia_texto p{
     text-align: left;
-    width: 638px;
-    line-height: 1.5;
+    margin: 0 10px;
 }
-
 
 /*concierto13*/
 .contenedor_concierto13{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    padding: 10px 0;
 }
 
 .historia_concierto13{
-   margin-right: 25px;
+    text-align: center;
+    width: 80%; 
 }
 
 .historia_texto h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .historia_texto p{
     text-align: left;
-    width: 638px;
-    line-height: 1.5;
+    margin: 0 10px;
 }
 
 
 /*concierto14*/
 .contenedor_concierto14{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    padding: 10px 0;
 }
 
 .historia_concierto14{
-   margin-right: 25px;
+    text-align: center;
+    width: 80%; 
 }
 
 .historia_texto h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .historia_texto p{
     text-align: left;
-    width: 638px;
-    line-height: 1.5;
+    margin: 0 10px;
 }
 
 
 /*concierto15*/
 .contenedor_concierto15{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    padding: 10px 0;
 }
 
 .historia_concierto15{
-   margin-right: 25px;
+    text-align: center;
+    width: 80%; 
 }
 
 .historia_texto h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .historia_texto p{
     text-align: left;
-    width: 638px;
-    line-height: 1.5;
+    margin: 0 10px;
 }
-
 
 /*concierto16*/
 .contenedor_concierto16{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    padding: 10px 0;
 }
 
 .historia_concierto16{
-   margin-right: 25px;
+    text-align: center;
+    width: 80%; 
 }
 
 .historia_texto h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .historia_texto p{
     text-align: left;
-    width: 638px;
-    line-height: 1.5;
+    margin: 0 10px;
 }
 
 
 /*concierto17*/
 .contenedor_concierto17{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    padding: 10px 0;
 }
 
 .historia_concierto17{
-   margin-right: 25px;
+    text-align: center;
+    width: 80%; 
 }
 
 .historia_texto h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .historia_texto p{
     text-align: left;
-    width: 638px;
-    line-height: 1.5;
+    margin: 0 10px;
 }
 
 /*concierto18*/
 .contenedor_concierto18{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    padding: 10px 0;
 }
 
 .historia_concierto18{
-   margin-right: 25px;
+    text-align: center;
+    width: 80%; 
 }
 
 .historia_texto h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .historia_texto p{
     text-align: left;
-    width: 638px;
-    line-height: 1.5;
+    margin: 0 10px;
 }
 
+.main{
+    flex: 1;
+}
 
 /* Footer  Taylor Swift*/
 
@@ -562,7 +574,6 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: #ddd6ce;
-    position: absolute;
     bottom: 0;
     width: 100%;
 }
