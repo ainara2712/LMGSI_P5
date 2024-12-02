@@ -1,0 +1,33 @@
+
+.container_quienes_somos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px; 
+    margin-top: 30px;
+}
+
+h2{
+    text-align: center;
+}
+
+.quienes_somos div {
+    text-align: center;
+}
+
+.container_quienes_somos h2 {
+    text-align: center;
+}
+
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

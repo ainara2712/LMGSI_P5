@@ -1,0 +1,167 @@
+/* Main */
+
+main {
+    flex: 1;
+}
+
+
+.contenedor_historia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.historia_texto{
+   margin-right: 25px;
+}
+
+.historia_texto h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.historia_texto p{
+    text-align: left;
+    width: 638px;
+    line-height: 1.5;
+}
+
+.historia_imagenes img{
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+/* Segundo contenedor */
+.contenedor_historia2{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.historia_texto2{
+    margin-right: 25px;
+    width: 658px; 
+}
+
+.historia_texto2 h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.historia_texto2 p{
+    text-align: left;
+    line-height: 1.5;
+}
+
+.historia_imagenes2 img{
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+/*tercero*/
+.contenedor_historia3{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.historia_texto3{
+    width: 608px; 
+}
+
+.historia_texto3 h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.historia_texto3 p{
+    text-align: left;
+    line-height: 1.5;
+}
+
+.historia_imagenes3 img{
+    max-width: 100%; 
+    height: auto; 
+    margin-left: 25px;
+}
+
+
+/*cuarto*/
+.contenedor_historia4{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.historia_texto4{
+    width: 936px; 
+}
+
+.historia_texto4 h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.historia_texto4 p{
+    text-align: left;
+    line-height: 1.5;
+}
+
+/*quinto*/
+.contenedor_historia5 {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.historia_texto5 {
+    width: 608px; 
+}
+
+.historia_texto5 h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.historia_texto5 p {
+    text-align: left;
+    line-height: 1.5;
+}
+
+.historia_imagenes5 img {
+    max-width: 100%; 
+    height: auto; 
+    margin-left: 25px;
+}
+
+
+/*sexto*/
+.contenedor_historia6 {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.historia_texto6 {
+    width: 624px; 
+}
+
+.historia_texto6 h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.historia_texto6 p {
+    text-align: left;
+    line-height: 1.5;
+}
+
+.historia_imagenes6 img {
+    max-width: 100%; 
+    height: auto; 
+    margin-left: 25px;
+}
+
+

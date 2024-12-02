@@ -1,0 +1,30 @@
+main {
+    flex: 1; 
+}
+
+.container_galeria{
+    text-align: center;
+    color: black;
+}
+
+.galeria2{
+    text-align: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria2 h1 {
+    color: black;
+    align-items: center;
+}
+
+.imagenes_galeria{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    gap: 20px; /*Es el espacio entre las imagenes*/
+    max-width: 1200px;
+    margin: auto;
+}

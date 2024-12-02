@@ -1,0 +1,35 @@
+
+
+.contenedor_discografia_texto h1{
+    color: black;
+    text-align: center;
+    padding: 40px;
+}
+
+.discografia {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; /* Espacio entre las imagenes */
+    justify-content: center;
+    padding: 20px;
+}
+
+.disco{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.disco h2{
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.disco h3{
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+

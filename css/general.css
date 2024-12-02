@@ -9,7 +9,7 @@
 
 body {
     background-color: #EDECE8;
-    color: #ffffff;
+    color: #000000;
     height: 100vh;
     margin: 0;
     padding-top: 120px; 
@@ -28,12 +28,13 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 10; /* Asegura que el encabezado se quede encima */
+    z-index: 10; /* encabezado se quede encima */
 }
 
-/* Estilos de la logo Taylor Swift*/
+/*  logo */
 
-.logo {
+
+#logo {
     flex: 1;
     display: flex;
     align-items: center;
@@ -44,7 +45,7 @@ header {
     height: auto;
 }
 
-/* Estilos del buscador Taylor Swift*/
+/* Estilos del buscador*/
 
 .buscador {
     flex: 1;
@@ -76,7 +77,7 @@ header {
     background-color: #5E5046;
 }
 
-/* Estilos de la sección de login Taylor Swift*/
+/*login */
 
 .login {
     flex: 1;
@@ -89,7 +90,7 @@ header {
     max-width: 120px;
 }
 
-/* Menu de navegación Taylor Swift */
+/* Menu de navegación  */
 
 .menu_navegacion {
     background-color: #ada49c31;
@@ -121,17 +122,18 @@ header {
     color: #796455; 
 }
 
-/* Footer  Taylor Swift*/
 
+/* Footer*/
 footer {
     text-align: center;
     padding: 20px;
     background-color: #ddd6ce;
-    position: absolute;
     bottom: 0;
     width: 100%;
+    left: 0;
 }
 
 footer h6 {
     color: #75695E;
 }
+

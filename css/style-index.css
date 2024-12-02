@@ -1,0 +1,46 @@
+
+h1{
+    text-align: center;
+    margin-top: 150px;
+    color: rgb(144, 77, 207);
+    font-size: 50px;
+}
+
+p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+ol{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0; 
+}
+
+.contenedor-img {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin-top: 80px;
+}
+
+
+
+footer {
+    position: fixed;
+}
+
+
